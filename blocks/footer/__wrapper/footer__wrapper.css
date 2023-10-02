@@ -1,0 +1,9 @@
+.footer__wrapper {
+  padding: clamp(24px, 5vw, 33px) clamp(16px, 5vw, 33px);
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__wrapper {
+    padding: 40px clamp(80px, 10vw, 144px);
+  }
+}

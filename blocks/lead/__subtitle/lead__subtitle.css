@@ -1,0 +1,13 @@
+.lead__subtitle {
+  font-size: clamp(1em, 1.5vw, 1.25em);
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__subtitle {
+    line-height: 135%;
+  }
+}
+

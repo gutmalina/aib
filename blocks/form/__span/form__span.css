@@ -1,0 +1,10 @@
+.form__span {
+  display: none;
+  color: var(--color-error);
+  font-size: 0.75em;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}

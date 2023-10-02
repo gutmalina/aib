@@ -1,0 +1,12 @@
+.form__lead {
+  display: none;
+  padding: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .form__lead {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

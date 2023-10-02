@@ -1,0 +1,13 @@
+.btn__close_popup-form {
+  background: url(../../../../images/icon_close_popup-form.svg);
+  width: 40px;
+  height: 40px;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+  position: initial;
+}
+
+.btn__close_popup-form:hover {
+  background: url(../../../../images/icon_close_popup-form_hover.svg);
+}

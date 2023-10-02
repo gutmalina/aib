@@ -1,0 +1,18 @@
+.btn {
+  border-radius: var(--border-radius);
+  background: var(--secondary-color-blue);
+  font-size: 0.875em;
+  font-weight: 600;
+  letter-spacing: 0.21px;
+  color: inherit;
+}
+
+.btn:hover {
+  background: rgba(149, 186, 229, 0.2);
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+}
+
+.btn:disabled {
+  background: var(--color-disabled);
+}

@@ -1,0 +1,10 @@
+.popup__img_lead {
+  margin-bottom: 14px;
+  width: clamp(205px, 37vw, 308px);
+}
+
+@media screen and (min-width: 1024px) {
+  .popup__img_lead {
+    margin-bottom: 16px;
+  }
+}

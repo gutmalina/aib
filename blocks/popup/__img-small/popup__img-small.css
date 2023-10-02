@@ -1,0 +1,5 @@
+.popup__img-small {
+  width: clamp(130px, 35vw, 326px);
+  height: 200px;
+  object-fit: cover;
+}

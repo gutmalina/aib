@@ -1,0 +1,25 @@
+
+
+@media screen and (min-width: 1024px) {
+  .popup__content_detail {
+    overflow: hidden auto;
+  }
+
+  .popup__content_detail::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  .popup__content_detail::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: var(--secondary-color-blue);
+    border: 6px solid var(--primery-color-white);
+  }
+
+  .popup__content_detail::-webkit-scrollbar-track {
+    margin-top: 65px;
+    background-color: var(--primery-color-white);
+    border-radius: 2px;
+  }
+}
+
+

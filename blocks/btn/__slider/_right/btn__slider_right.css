@@ -1,0 +1,9 @@
+.btn__slider_right {
+  background: url(../../../../images/icon_slider_right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn__slider_right:hover {
+  background: url(../../../../images/icon_slider_right_hover.svg);
+}

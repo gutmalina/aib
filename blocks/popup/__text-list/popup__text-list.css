@@ -1,0 +1,18 @@
+.popup__text-list {
+  font-size: 0.875em;
+  line-height: 139.9%;
+  letter-spacing: 0.21px;
+  font-weight: 400;
+  list-style-type: disc;
+  padding: 11px 21px;
+
+}
+
+@media screen and (min-width: 764px) {
+  .popup__text-list {
+    font-size: 1em;
+    line-height: 149%;
+    letter-spacing: 0.16px;
+    padding: 19px 26px;
+  }
+}

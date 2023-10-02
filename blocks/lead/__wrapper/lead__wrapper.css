@@ -1,0 +1,24 @@
+.lead__wrapper {
+  padding: 26px clamp(16px, 4vw, 32px) clamp(32px, 2vw, 36px);
+}
+
+@media screen and (min-width: 764px) {
+  .lead__wrapper {
+    width: 59%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 37px clamp(80px, 10vw, 144px) 42px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}

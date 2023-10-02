@@ -1,0 +1,15 @@
+.popup__li {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.popup__li::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--color-btn);
+  position: absolute;
+  left: -47px;
+  top: 23px;
+}

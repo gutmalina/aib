@@ -1,0 +1,4 @@
+.popup__card-title_underline {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}

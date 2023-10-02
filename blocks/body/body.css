@@ -1,0 +1,54 @@
+.body {
+  --primery-color-white: #e6eaf2;
+  --primery-color-dark-blue: #194a8d;
+  --primery-color-blue: #288fce;
+  --secondary-color-blue: #216FAF;
+  --primery-color-dark: #012340;
+  --primery-gradient: linear-gradient(#194a8d, #288fce);
+  --bg-gradient: linear-gradient(90deg, #0E263F 9.44%, #0B1321 19.74%, #151D35 49.23%, #1A1B2F 66.19%, #1D2745 89.31%, #1A1B2F 98.47%);
+  --bg-gradient-card: linear-gradient(151deg, #288FCE 0.63%, #194A8D 86.26%);
+  --color-placeholder: linear-gradient(315deg, #194A8D 20.84%, #288FCE 90.4%);
+  --color-disabled: #778EA3;
+  --color-invalid: #FFECE6;
+  --color-error: #9E3A18;
+  --color-btn: #eff1f5;
+  --color-dots: #A9D3FA;
+  --border-radius: 4px;
+  --max-width: 1440px;
+  --centre-margin: 0 auto;
+  --cursor-pointer: pointer;
+  --font: "Montserrat", "Cinzel Decorative", cursive;
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 16px;
+  color: var(--primery-color-white);
+  min-width: 360px;
+}
+
+button {
+  cursor: var(--cursor-pointer);
+  border: none;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: var(--cursor-pointer);
+}
+
+h1, h2, h3, h4, h5 p {
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}

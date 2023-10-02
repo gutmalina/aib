@@ -1,0 +1,4 @@
+.popup__wrapper_type-second {
+  -ms-grid-columns: 1fr 55px 1.6fr;
+  grid-template-columns: 1fr 1.6fr;
+}

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="logo">
+          <img
+            class="logo__img"
+            src="./images/logo_light.svg"
+            alt="AiB logo digitalization"
+          />
+          <span class="logo__subtitle">ЦИФРОВИЗАЦИЯ</span>
+        </div>
+        <nav class="header__menu">
+          <a href="" class="header__link">ГЛАВНАЯ</a>
+          <a href="" class="header__link">О НАС</a>
+          <a href="" class="header__link">НАША КОМАНДА</a>
+          <a href="" class="header__link">ПРОЕКТЫ</a>
+          <a href="" class="header__link">НОВОСТИ</a>
+          <a href="" class="header__link">КОНТАКТЫ</a>
+        </nav>
+        <div class="header__burger"></div>
+      </div>
+    </header>
+    <main>
+      <section class="lead">
+        <div class="lead__wrapper">
+          <article class="lead__group-text">
+            <h1 class="lead__title">Внедрение систем на базе 1С</h1>
+            <p class="lead__subtitle">
+              АиБ Цифровизация осуществляет комплексную автоматизацию на «1С»,
+              решает задачи цифровой трансформации и импортозамещения.
+            </p>
+          </article>
+          <a class="btn btn__call" href="#contacts">ЗАКАЗАТЬ ЗВОНОК</a>
+          <form name="lead" action="" class="form form__lead">
+            <fieldset class="form__inputs form__inputs_lead">
+              <label class="form__label">
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Введите имя"
+                  class="form__input"
+                  inputmode="text"
+                  minlength="2"
+                  maxlength="20"
+                  required
+                />
+                <span class="form__span form__span_phone"
+                  >Min 2 знака, max 20 знаков</span
+                >
+              </label>
+              <label class="form__label">
+                <input
+                  name="phone"
+                  type="tel"
+                  placeholder="+7 ___ ___ __ __"
+                  class="form__input"
+                  pattern="\+[0-9]{11}"
+                  inputmode="tel"
+                  maxlength="12"
+                  required
+                />
+                <span class="form__span form__span_phone"
+                  >Неверный формат номера</span
+                >
+              </label>
+            </fieldset>
+            <button name="order" class="btn btn__order" type="submit" disabled>
+              ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ
+            </button>
+            <fieldset class="checkbox">
+              <label class="checkbox">
+                <input
+                  class="checkbox__input"
+                  type="checkbox"
+                  name="myCheckbox"
+                />
+                <span class="checkbox__box"></span>
+              </label>
+              <span class="checkbox__subtitle"
+                >Я даю Согласие на обработку персональных данных в соответствии
+                с Политикой Конфиденциальности</span
+              >
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section class="content">
+        <div class="content__wrapper">
+          <button
+            class="btn btn__slider btn__slider_left"
+          ></button>
+          <div class="swiper content__cards">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article name="О НАС" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">О НАС</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">
+                        Цифровая трансформация и импортозамещение
+                      </p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small"></p>
+                    <ul class="content__list">
+                      <li>
+                        <a href="" class="popup-link" data-target="link1"
+                          >Серверные ОС</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link2"
+                          >Офисный пакет</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link1"
+                          >ОС рабочих станций</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link2"
+                          >Почтовые сервера</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link1"
+                          >Системы виртуализации</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link2"
+                          >Системы видео конференцсвязи</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link1"
+                          >Системы виртуальных рабочих столов</a
+                        >
+                      </li>
+                      <li>
+                        <a href="" class="popup-link" data-target="link2"
+                          >Корпоративные мессенджеры</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle"></p>
+                    <ul class="content__list_type-link"></ul>
+                    <p class="content__link">Показать еще</p>
+                  </div>
+                  <div class="content__img content__img_type-about"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="ПРОЕКТЫ" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">ПРОЕКТЫ</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title">50+</h2>
+                      <p class="content__subtitle">выполненных проектов</p>
+                      <h2 class="content__title">15</h2>
+                      <p class="content__subtitle">лет опыта на рынке</p>
+                      <h2 class="content__title">30+</h2>
+                      <p class="content__subtitle">
+                        сертифицированных специалистов
+                      </p>
+                    </div>
+                    <p class="content__subtitle_type-small"></p>
+                    <ul>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle"></p>
+                    <ul class="content__list_type-link"></ul>
+                    <p class="content__link">Показать проекты</p>
+                  </div>
+                  <div class="content__img content__img_type-projects"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="новости" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">НОВОСТИ</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">
+                        В компании по производству лекарств перевели
+                        регламентированный учет из 1С УПП на 1С ERP
+                      </p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small"></p>
+                    <ul>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle"></p>
+                    <ul class="content__list_type-link"></ul>
+                    <p class="content__link">Показать еще</p>
+                  </div>
+                  <div class="content__img content__img_type-news"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="проекты" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">ПРОЕКТЫ</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">АзотМайнингСервис</p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small">
+                      Производство взрывчатых веществ, буро-взрывных работ
+                    </p>
+                    <ul class="content__list">
+                      <li>Переход с 1С:УПП на систему 1С:ERP</li>
+                      <li>Реализованный функционал:</li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle">Руководитель проекта:</p>
+                    <ul class="content__link_type-list">
+                      <li>Чернышева Дарья</li>
+                    </ul>
+                    <p class="content__link">Показать еще</p>
+                  </div>
+                  <div class="content__img"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="колектив" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">НАША КОМАНДА</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">Чернышева Дарья</p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small">
+                      Руководитель направления
+                    </p>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle">Проекты:</p>
+                    <ul class="content__link_type-list">
+                      <li>АзотМайнингСервис</li>
+                      <li>АзотМайнингСервис</li>
+                      <li>БОШ РЕКСРОТ</li>
+                    </ul>
+                    <p class="content__link">Показать больше</p>
+                  </div>
+                  <div class="content__img content__img_type-team"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="новости" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">НОВОСТИ</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">
+                        Цифровая трансформация и импортозамещение
+                      </p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small">
+                      сделали крутую штуку)))
+                    </p>
+                    <ul>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle"></p>
+                    <ul class="content__link_type-list"></ul>
+                    <p class="content__link">Показать еще</p>
+                  </div>
+                  <div class="content__img content__img_type-news"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="колектив" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">НАША КОМАНДА</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">Овчаренко Алина</p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small">
+                      Руководитель направления
+                    </p>
+                    <ul>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle">Проекты:</p>
+                    <ul class="content__link_type-list">
+                      <li>АзотМайнингСервис</li>
+                      <li>БОШ РЕКСРОТ</li>
+                      <li>Мясницкий ряд</li>
+                    </ul>
+                    <p class="content__link">Показать больше</p>
+                  </div>
+                  <div class="content__img content__img_type-team"></div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article name="проекты" class="content__card">
+                  <div class="content__container">
+                    <p class="content__tag">ПРОЕКТЫ</p>
+                    <div class="content__group_titls">
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle">
+                        Ульяновский Сахарный Завод
+                      </p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                      <h2 class="content__title"></h2>
+                      <p class="content__subtitle"></p>
+                    </div>
+                    <p class="content__subtitle_type-small">
+                      Переработка сахарной свеклы
+                    </p>
+                    <ul class="content__list">
+                      <li>Переход с 1С:УПП на систему 1С:ERP</li>
+                      <li>Реализованный функционал:</li>
+                    </ul>
+                  </div>
+                  <div class="content__links">
+                    <p class="content__link-subtitle">Руководитель проекта:</p>
+                    <ul class="content__link_type-list">
+                      <li>Чернышева Дарья</li>
+                    </ul>
+                    <p class="content__link">Показать еще</p>
+                  </div>
+                  <div class="content__img"></div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <button
+            class="btn btn__slider btn__slider_right"
+          ></button>
+          <div class="swiper-pagination pagination"></div>
+        </div>
+      </section>
+      <section id="contacts" class="contacts">
+        <div class="contacts__wrapper">
+          <p class="contacts__subtitle">Подберем решение под ваши задачи</p>
+          <form name="contacts" action="" class="form form__contacts">
+            <fieldset class="form__inputs form__inputs_contacts">
+              <label class="form__label">
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Введите имя"
+                  class="form__input form__input_contacts"
+                  inputmode="text"
+                  minlength="2"
+                  maxlength="20"
+                  required
+                />
+                <span class="form__span form__span_phone"
+                  >Min 2 знака, max 20 знаков</span
+                >
+              </label>
+              <label class="form__label">
+                <input
+                  name="phone"
+                  type="tel"
+                  placeholder="+7 ___ ___ __ __"
+                  class="form__input"
+                  pattern="\+[0-9]{11}"
+                  inputmode="tel"
+                  maxlength="12"
+                  required
+                />
+                <span class="form__span form__span_phone"
+                  >Неверный формат номера</span
+                >
+              </label>
+            </fieldset>
+            <button
+              name="order"
+              class="btn btn__call btn__call_submit"
+              type="submit"
+              disabled
+            >
+              ЗАКАЗАТЬ ЗВОНОК
+            </button>
+            <fieldset class="checkbox">
+              <label>
+                <input
+                  class="checkbox__input"
+                  type="checkbox"
+                  name="myCheckbox"
+                />
+                <span class="checkbox__box"></span>
+              </label>
+              <span class="checkbox__subtitle"
+                >Я даю Согласие на обработку персональных данных в соответствии
+                с Политикой Конфиденциальности</span
+              >
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__group-contacts">
+          <div class="logo">
+            <img
+              class="logo__img"
+              src="./images/logo_dark.svg"
+              alt="AiB logo digitalization"
+            />
+            <span class="logo__subtitle">ЦИФРОВИЗАЦИЯ</span>
+          </div>
+          <div class="footer__container">
+            <article class="footer__contacts">
+              <h3 class="footer__title">Наши контакты</h3>
+              <div class="footer__subtitles">
+                <p class="footer__subtitle">+7(495)1204002</p>
+                <p class="footer__subtitle">abababababa@ab.ab</p>
+              </div>
+            </article>
+            <article class="footer__contacts">
+              <h3 class="footer__title">Мы в социальных сетях</h3>
+              <nav class="footer__icons">
+                <a><img src="./images/icon_youtube.svg" alt="" /></a>
+                <a><img src="./images/icon_telegram.svg" alt="" /></a>
+                <a><img src="./images/icon_vk.svg" alt="" /></a>
+              </nav>
+            </article>
+          </div>
+        </div>
+        <div class="footer__border"></div>
+        <ul class="footer__group-info">
+          <li class="footer__info">
+            Корпоративная политика в отношении персональных данных
+          </li>
+          <!-- <li class="footer__info">Политика конфиденциальности</li> -->
+          <li class="footer__info">
+            © ООО «АиБ Цифровизация» ОГРН 1235000064705
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div id="link1" class="popup">
+      <div class="popup__background"></div>
+      <section class="popup__container">
+        <button class="btn btn__close"></button>
+        <div class="popup__wrapper">
+          <article class="popup__content popup__content_short">
+            <p class="popup__tag">НАША КОМАНДА</p>
+            <img
+              class="popup__img popup__img_lead"
+              src="./images/card_employee.png"
+              alt="Card of employee"
+            />
+            <h3 class="popup__title">Чернышева Дарья</h3>
+            <p class="popup__subtitle">Руководитель направления</p>
+          </article>
+          <article class="popup__content popup__content_detail">
+            <div class="popup__header">
+              <h4 class="popup__text">Последние проекты:</h4>
+              <ul class="popup__text-list">
+                <li>Внедрение 1С:ERP в Bosch Rexroth</li>
+                <li>Внедрение 1С:ERP УХ в АзотМайнинг</li>
+                <li>Внедрение 1С:ERP в Канонфарма Продакшн</li>
+              </ul>
+            </div>
+            <div class="popup__lead">
+              <h4 class="popup__text">Опыт работы:</h4>
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    Мясницкий ряд
+                  </p>
+                  <span>-</span> Мясопереработка
+                </h5>
+                <ul>
+                  <li>
+                    Переход с 1С:УПП Мясокомбинат и 1С 7.7 на систему 1С:ERP
+                  </li>
+                  <li>Реализованный функционал:</li>
+                  <li>
+                    Автоматизация коммерческой службы – приемка заказов,
+                    ценообразование, акционные цены, ведение и контроль
+                    требований сетей.
+                  </li>
+                  <li>
+                    Система сборки и отгрузки заказов, включая возврат
+                    документов и оборотной тары
+                  </li>
+                  <li>Транспортная логистика, настройка статичных маршрутов</li>
+                  <li>Регламентированный учет</li>
+                </ul>
+              </section>
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    БОШ РЕКСРОТ
+                  </p>
+                  <span>-</span> продажа промышленного оборудования, запчастей и
+                  сервисное обслуживание.
+                </h5>
+                <ul>
+                  <li>
+                    Переход с 1С:УПП и 1С:УТ на систему 1С:ERP с бесшовно
+                    интегрированной базой 1С: ДО.
+                  </li>
+                  <li>Реализованный функционал:</li>
+                  <li>
+                    Отслеживание контроль и информирование прохождения всех
+                    стадий клиентского заказа - закупка готовых комплектов или
+                    сборка из запчастей по заказ.
+                  </li>
+                  <li>
+                    Ведение в системе функционала сервисного обслуживания, ТО и
+                    ремонтов.
+                  </li>
+                  <li>
+                    Разработка мобильного приложения для складских операций,
+                    учет по упаковочным местам.
+                  </li>
+                  <li>
+                    Контроль за дебиторской и кредиторской задолженностями.
+                  </li>
+                  <li>Регламентированный учет</li>
+                </ul>
+              </section>
+
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    Ульяновский Сахарный Завод
+                  </p>
+                  <span>-</span> переработка сахарной свеклы
+                </h5>
+                <ul>
+                  <li>Переход с 1С:УПП на систему 1С:ERP</li>
+                  <li>Реализованный функционал:</li>
+                  <li>
+                    Приемка свеклы по зачетному весу, взаиморасчеты со
+                    сдатчиками сахаром.
+                  </li>
+                  <li>Разработка путевого листа, учет ГСМ, пробега.</li>
+                  <li>Учет продажи коммунальных услуг</li>
+                  <li>Регламентированный учет</li>
+                </ul>
+              </section>
+
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    ИстАгро Дон
+                  </p>
+                  <span>-</span> выращивание и переработка топинамбура,
+                  производство инулина
+                </h5>
+                <ul>
+                  <li>Внедрение 1С:ERP АПК</li>
+                  <li>Реализованный функционал:</li>
+                  <li>
+                    Загрузка данных производственного учета из ПО оборудования
+                  </li>
+                  <li>Регламентированный учет</li>
+                </ul>
+              </section>
+
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    СолеРамичи
+                  </p>
+                  <span>-</span> Производство сыровяленной продукции
+                </h5>
+                <ul>
+                  <li>Внедрение 1С:ERP</li>
+                  <li>Реализованный функционал:</li>
+                  <li>
+                    Интеграция с системой производственного и складского учета
+                  </li>
+                  <li>Интеграция с системой ВетИС</li>
+                  <li>Приемка клиентских заказов</li>
+                  <li>Ценообразование</li>
+                  <li>Транспортная логистика</li>
+                </ul>
+              </section>
+
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    АзотМайнингСервис
+                  </p>
+                  <span>-</span> Производство взрывчатых веществ, буро-взрывных
+                  работ
+                </h5>
+                <ul>
+                  <li>Переход с 1С:УПП на систему 1С:ERP</li>
+                  <li>Реализованный функционал:</li>
+                  <li>Регламентированный учет</li>
+                  <li>
+                    Расчет себестоимости с распределением затрат по карьерам
+                  </li>
+                  <li>Интеграция с системами производственного учета</li>
+                  <li>Интеграция с 1С ЗУиП</li>
+                  <li>Закупочная деятельность</li>
+                  <li>Казначейство и бюджетирование</li>
+                </ul>
+              </section>
+              <section class="popup__card">
+                <h5 class="popup__card-title">
+                  <p class="popup__card-title popup__card-title_underline">
+                    Канон Фарма
+                  </p>
+                  <span>-</span> Производство лекарств
+                </h5>
+                <ul>
+                  <li>
+                    Перевод регламентированного учета с 1С:УПП на систему 1С:ERP
+                  </li>
+                  <li>Интеграция по документам с 1С УПП</li>
+                  <li>Регламентированный учет</li>
+                </ul>
+              </section>
+            </div>
+            <div class="popup__group-img">
+              <img
+                class="popup__img-small"
+                src="./images/card_project1.png"
+                alt=""
+              />
+              <img
+                class="popup__img-small"
+                src="./images/card_project2.png"
+                alt=""
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div id="link2" class="popup">
+      <div class="popup__background"></div>
+      <section class="popup__container">
+        <button class="btn btn__close"></button>
+        <div class="popup__wrapper popup__wrapper_type-second">
+          <article class="popup__content popup__content_short">
+            <p class="popup__tag">ПРОЕКТЫ</p>
+            <h4 class="popup__title popup__title_type-second">
+              Автоматизация АО «ПО «Стрела»
+            </h4>
+            <img
+              class="popup__img popup__img_lead popup__img_type-second"
+              src="./images/card_employee_link2.png"
+              alt="Card of employee"
+            />
+            <p class="popup__subtitle">
+              Крупное производственное предприятие, обладающее собственной
+              передовой научно-исследовательской, опытно-конструкторской,
+              технологической, производственной и испытательной базами
+            </p>
+            <ul class="popup__text-list popup__text-list_type-second">
+              <li class="popup__li">
+                <h5 class="popup__li-title">Отрасль по классификации 1С:</h5>
+                <p>машиностроение, приборостроение</p>
+              </li>
+              <li class="popup__li">
+                <h5 class="popup__li-title">Производственные площадки:</h5>
+                <p>Оренбург</p>
+              </li>
+              <li class="popup__li">
+                <h5 class="popup__li-title">Входит в холдинг</h5>
+                <p>корпорация «Тактическое ракетное вооружение»</p>
+              </li>
+            </ul>
+          </article>
+          <div class="popup__border popup__border_hidden"></div>
+          <article class="popup__content popup__content_detail">
+            <div class="popup__header">
+              <h4 class="popup__text">Параметры автоматизации</h4>
+              <ul class="popup__text-list">
+                <li>Бухгалтерский и налоговый учет</li>
+                <li>Калькулирование плановых затрат</li>
+                <li>Учет производственных затрат</li>
+                <li>Учет и распределение накладных расходов</li>
+                <li>Расчет полной себестоимости продукции</li>
+                <li>Контроль взаиморасчетов с поставщиками и заказчиками</li>
+                <li>Лимитирование расходов</li>
+                <li>
+                  Управление денежными средствами предприятия (казначейство)
+                </li>
+                <li>
+                  Реализация требований 275-ФЗ и 543го Постановления
+                  правительства при исполнении ГОЗ
+                </li>
+              </ul>
+              <div class="popup__card-small">
+                <h4 class="popup__text">Автоматизированно</h4>
+                <p class="popup__card-title">300 АРМ</p>
+              </div>
+            </div>
+            <div class="popup__border"></div>
+            <div class="popup__header">
+              <h4 class="popup__text">Производственные работы</h4>
+              <ul class="popup__text-list">
+                <li>Металлообработка</li>
+                <li>Кузнечно-прессовое производство</li>
+                <li>Монтаж и сборка</li>
+              </ul>
+              <section class="popup__cards-small">
+                <div class="popup__card-small">
+                  <h4 class="popup__text">Вид производства</h4>
+                  <p class="popup__card-title">Позаказное, Серийное</p>
+                </div>
+                <div class="popup__card-small">
+                  <h4 class="popup__text">Тип производства</h4>
+                  <p class="popup__card-title">Дискретное</p>
+                </div>
+              </section>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div id="popup-form" class="popup popup-form">
+      <div class="popup__background"></div>
+      <section class="popup-form__container">
+        <img class="popup-form__img" src="./images/bg_popup-form.svg" alt="" />
+        <button class="btn btn__close btn__close_popup-form"></button>
+        <h5 class="popup-form__title">Спасибо за обращение!</h5>
+        <p class="popup-form__subtitle">
+          В скором времени мы с Вами свяжемся и проконсультируем по волнующим
+          вопросам
+        </p>
+        <button class="btn btn__go">ПРОДОЛЖИТЬ</button>
+      </section>
+    </div>
+    <div id="popup-error" class="popup popup-form">
+      <div class="popup__background"></div>
+      <section class="popup-form__container">
+        <img class="popup-form__img" src="./images/bg_popup-form.svg" alt="" />
+        <button class="btn btn__close btn__close_popup-form"></button>
+        <h5 class="popup-form__title">Ошибка при обработке запроса</h5>
+        <p class="popup-form__subtitle popup-form__error"></p>
+        <button class="btn btn__go">ПРОДОЛЖИТЬ</button>
+      </section>
+    </div>
+    <script src="./scripts/constants.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/sliders.js"></script>
+    <script src="./scripts/popups.js"></script>
+    <script src="./scripts/forms.js"></script>
+  </body>
+</html>

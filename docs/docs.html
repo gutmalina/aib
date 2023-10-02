@@ -1,0 +1,49 @@
+<!-- Пояснения по общей структуре карточки -->
+
+<article class="content__card" style="display: none">
+  <!-- Контейнер прижимается к верхнему краю карточки-->
+  <div class="content__container">
+    <!-- Тег карточки (о нас, проекты, новости, команда)-->
+    <p class="content__teg"></p>
+
+    <!-- Группа загаловков (цифры записываются в H2, строки в P)-->
+    <div class="content__group_titls">
+      <h2 class="content__title"></h2>
+      <p class="content__subtitle"></p>
+      <h2 class="content__title"></h2>
+      <p class="content__subtitle"></p>
+      <h2 class="content__title"></h2>
+      <p class="content__subtitle"></p>
+    </div>
+
+    <!-- Дополнительный заголовок, меньшего размера, который можно использовать для списка-->
+    <p class="content__subtitle_type-small"></p>
+    <!-- Список с отступом и точками как разделители,
+         если нет списка надо обязательно удалять класс class="content__list"-->
+    <ul class="content__list">
+      <li></li>
+    </ul>
+  </div>
+
+  <!-- Контейнер прижимается к нижнему краю карточки-->
+  <div class="content__links">
+    <!-- Заголовок, который используется для списка-->
+    <p class="content__link-subtitle"></p>
+
+    <!-- Список без отступа, без точек, текст подчеркун-->
+    <ul class="content__list_type-link">
+      <li></li>
+    </ul>
+
+    <!-- Ссылка, вставить текст ссылки-->
+    <a href="" class="content__link"></a>
+  </div>
+
+  <!-- Контейнер для фонового изображения карточки,
+       в зависимости от тега необходимо установить дополнительный класс селектора:
+  content__img_type-about - о нас
+  content__img_type-projects - проекты (только для карточки, в которой заголовки с цифрами!)
+  content__img_type-news - новости
+  content__img_type-team - команда-->
+  <div class="content__img content__img_type-about"></div>
+</article>

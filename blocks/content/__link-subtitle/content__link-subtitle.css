@@ -1,0 +1,15 @@
+.content__link-subtitle {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0.14px;
+}
+
+@media screen and (min-width: 1024px) {
+  .content__link-subtitle {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0.16px;
+  }
+}

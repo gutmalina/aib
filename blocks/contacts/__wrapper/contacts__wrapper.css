@@ -1,0 +1,22 @@
+.contacts__wrapper {
+  padding-top: clamp(26px, 4vw, 30px);
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 764px) {
+  .contacts__wrapper {
+    padding-bottom: 39px;
+  }
+}

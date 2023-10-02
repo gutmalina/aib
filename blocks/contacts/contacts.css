@@ -1,0 +1,10 @@
+.contacts {
+  background: url(../../images/bg_lead.jpeg);
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .contacts {
+    display: none;
+  }
+}

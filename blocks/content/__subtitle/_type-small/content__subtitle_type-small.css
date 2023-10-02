@@ -1,0 +1,15 @@
+.content__subtitle_type-small {
+  margin-bottom: 10px;
+  font-size: 0.875em;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+}
+
+@media screen and (min-width: 1024px) {
+  .content__subtitle_type-small {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0.16px;
+  }
+}

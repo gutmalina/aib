@@ -1,0 +1,4 @@
+.logo__img {
+  width: clamp(32px, 6vw, 39px);
+  height: clamp(20px, 4vw, 24px);
+}

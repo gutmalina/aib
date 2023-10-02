@@ -1,0 +1,6 @@
+.form__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: clamp(17px, 5vw, 33px);
+}

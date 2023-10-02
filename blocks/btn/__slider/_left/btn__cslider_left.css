@@ -1,0 +1,10 @@
+.btn__slider_left {
+  background: url(../../../../images/icon_slider_left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn__slider_left:hover {
+  background: url(../../../../images/icon_slider_left_hover.svg);
+}
+

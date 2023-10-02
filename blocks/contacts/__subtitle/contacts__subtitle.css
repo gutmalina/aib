@@ -1,0 +1,15 @@
+.contacts__subtitle {
+  font-size: clamp(1.25em, 4vw, 1.5em);
+  font-weight: 600;
+  line-height: 135%;
+  letter-spacing: 0.32px;
+  text-align: center;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 764px){
+  .contacts__subtitle {
+    margin-bottom: 22px;
+  }
+}

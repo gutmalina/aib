@@ -1,0 +1,16 @@
+.header__link {
+  font-size: 0.875em;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+  display: inline-block;
+  padding: 2px 6px;
+  transition: background-color .7s, backdrop-filter .7s ease-in-out;
+}
+
+.header__link:hover {
+  border-radius: 2px;
+  background-color: rgba(149, 186, 229, 0.2);
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  transition: background-color .7s, backdrop-filter .7s ease-in-out;
+}

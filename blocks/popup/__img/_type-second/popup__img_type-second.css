@@ -1,0 +1,6 @@
+.popup__img_type-second {
+  width: clamp(277px, 39vw, 299px);
+  object-fit: cover;
+  min-height: 143px;
+  margin-bottom: 24px;
+}

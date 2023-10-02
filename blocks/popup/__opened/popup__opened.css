@@ -1,0 +1,21 @@
+.popup__opened {
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; */
+  z-index: 100;
+  opacity: 1;
+  visibility: visible;
+  transition: visibility .7s, opacity .7s ease-in-out;
+}
+
+/* @media screen and (min-width: 1024px) {
+  .popup__opened {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+} */
+

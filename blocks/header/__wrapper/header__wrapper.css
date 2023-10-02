@@ -1,0 +1,24 @@
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 24px clamp(16px, 4vw, 30px);
+}
+
+@media screen and (min-width: 764px) {
+  .header__wrapper {
+    padding: 24px clamp(30px, 4vw, 100px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__wrapper {
+    padding: 24px clamp(80px, 10vw, 144px);
+  }
+}

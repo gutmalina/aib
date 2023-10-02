@@ -1,0 +1,12 @@
+.footer__title {
+  display: none;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title {
+    display: inline;
+  }
+}

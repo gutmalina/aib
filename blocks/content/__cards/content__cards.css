@@ -1,0 +1,17 @@
+.content__cards {
+  margin-bottom: 18px;
+  width: 100%;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .content__cards {
+    max-width: 747px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__cards {
+    max-width: 1155px;
+  }
+}
