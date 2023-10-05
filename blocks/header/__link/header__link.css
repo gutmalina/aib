@@ -5,6 +5,7 @@
   display: inline-block;
   padding: 2px 6px;
   transition: background-color .7s, backdrop-filter .7s ease-in-out;
+  cursor: pointer;
 }
 
 .header__link:hover {

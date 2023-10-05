@@ -38,12 +38,10 @@ const highlightMenuLink = (activeItem, item) => {
 const handleClickMenu = (e) => {
   const activeMenuLink = header.querySelector(".header__link_active");
   e.preventDefault();
-  if (e.target.tagName === "A") {
-    filterCards(e.target.innerHTML);
-    highlightMenuLink(activeMenuLink, e.target);
-    menuHeader.classList.remove("header__menu_visible");
-    editTextLogo();
-  }
+  filterCards(e.target.innerHTML);
+  highlightMenuLink(activeMenuLink, e.target);
+  menuHeader.classList.remove("header__menu_visible");
+  editTextLogo();
 };
 
 /** показывать, скрывать текст логотипа при ширине 764-1024 */
@@ -56,22 +54,24 @@ const editTextLogo = () => {
 /** фильтр карточек при клике на пунк меню*/
 const filterCards = (tagMenu) => {
   slides.map((slide) => {
-    const tagCard = slide
-      .querySelector(".content__tag")
-      .innerHTML.toLocaleLowerCase();
-
+    const tagCard = slide.getAttribute('name')
     if (tagMenu === "ГЛАВНАЯ") {
-      containerSwiper.appendChild(slide)
+      containerSlides.appendChild(slide)
       swiper.update()
-    } else if (tagCard !== tagMenu.toLocaleLowerCase()) {
+    } else if (tagCard !== tagMenu) {
       slide.remove()
       swiper.update()
     } else {
-      containerSwiper.appendChild(slide)
+      containerSlides.appendChild(slide)
       swiper.update()
     }
   });
 };
 
 btnBurger.addEventListener("click", handleClickBurger);
-menuHeader.addEventListener("click", (e) => handleClickMenu(e));
+menuLinks.forEach(link=>{
+  link.addEventListener('click', (e)=> {
+    e.preventDefault()
+    handleClickMenu(e)
+  })
+})

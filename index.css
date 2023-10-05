@@ -42,21 +42,23 @@
 @import url(./blocks/content/content.css);
 @import url(./blocks/content/__wrapper/content__wrapper.css);
 @import url(./blocks/content/__cards/content__cards.css);
-@import url(./blocks/content/__card/content__card.css);
-@import url(./blocks/content/__container/content__container.css);
-@import url(./blocks/content/__title/content__title.css);
-@import url(./blocks/content/__subtitle/content__subtitle.css);
-@import url(./blocks/content/__subtitle/_type-small/content__subtitle_type-small.css);
-@import url(./blocks/content/__tag/content__tag.css);
-@import url(./blocks/content/__list/content__list.css);
-@import url(./blocks/content/__img/content__img.css);
-@import url(./blocks/content/__img/_type-about/content__img_type-about.css);
-@import url(./blocks/content/__img/_type-projects/content__img_type-projects.css);
-@import url(./blocks/content/__img/_type-news/content__img_type-news.css);
-@import url(./blocks/content/__img/_type-team/content__img_type-team.css);
-@import url(./blocks/content/__link/content__link.css);
-@import url(./blocks/content/__link-subtitle/content__link-subtitle.css);
-@import url(./blocks/content/__link/_type-list/content__link_type-list.css);
+
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__title/_about/card__title_about.css);
+@import url(./blocks/card/__title/_project-lead/card__title_project-lead.css);
+@import url(./blocks/card/__title/_author/card__title_author.css);
+@import url(./blocks/card/__subtitle/card__subtitle.css);
+@import url(./blocks/card/__tag/card__tag.css);
+@import url(./blocks/card/__container/card__container.css);
+@import url(./blocks/card/__list/_about/card__list_about.css);
+@import url(./blocks/card/__list/_author/card__list_author.css);
+@import url(./blocks/card/__link/card__link.css);
+@import url(./blocks/card/__bg/card__bg.css);
+@import url(./blocks/card/__bg/_about/card__bg_about.css);
+@import url(./blocks/card/__bg/_project/card__bg_project.css);
+@import url(./blocks/card/__bg/__news/card__bg_news.css);
+@import url(./blocks/card/__bg/_staff/card__bg_staff.css);
 
 @import url(./blocks/pagination/pagination.css);
 

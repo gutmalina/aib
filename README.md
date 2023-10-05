@@ -12,4 +12,4 @@
 
 ### Ссылки:
 * :mag_right: [Открыть проект](https://gutmalina.github.io/aib/)
-* :microscope: [Тестовый сайт](https://gealit.online/)
+<!-- * :microscope: [Тестовый сайт](https://gealit.online/) -->

@@ -18,11 +18,12 @@ const swiper = new Swiper('.swiper', {
     el: ".swiper-pagination",
     clickable: true
   },
+  autoResize: true,
   breakpoints: {
-    320: {
-      slidesPerView: Math.round(widthContainer / (widthSlide + 14)*100)/100,
-      spaceBetween: 14
-    },
+    // 320: {
+    //   slidesPerView: Math.round(widthContainerSlides / (widthSlide + 14)*100)/100,
+    //   spaceBetween: 14
+    // },
     1024: {
       slidesPerView: 2,
       spaceBetween: 24

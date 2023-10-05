@@ -1,0 +1,9 @@
+.card__title_project-lead {
+  font-size: 2em;
+}
+
+@media screen and (min-width: 764px) {
+  .card__title_project-lead {
+    font-size: 2.25em;
+  }
+}

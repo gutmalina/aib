@@ -1,0 +1,5 @@
+.card__list_author {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}

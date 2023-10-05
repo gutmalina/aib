@@ -1,0 +1,8 @@
+.card__bg_project {
+  background: url(../../../../images/bg_card_projects_lead.svg);
+  background-repeat: no-repeat;
+  bottom: 20px;
+  left: 0;
+  width: 36px;
+  height: 172px;
+}
